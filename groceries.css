@@ -1,24 +1,24 @@
 .fru {
     background-color: chartreuse;
-    width: 15%;
+    width: 75%;
     margin-left: 30px;
 }
 
 .veg {
     background-color: orange;
-    width: 15%;
+    width: 75%;
     margin-left: 30px;
 }
 
 .can {
     background-color: red;
-    width: 15%;
+    width: 75%;
     margin-left: 30px;
 }
 
 .misc {
     background-color: green;
-    width: 15%;
+    width: 75%;
     margin-left: 30px;
 }
 
@@ -40,5 +40,15 @@ h1 {
 .misc-all {
     padding: 20px;
     border: black;
-    border-width: 5px;
+    border: 5px solid;
+    width: 15%;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
 }
