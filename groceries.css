@@ -23,7 +23,8 @@
 }
 
 h1 {
-    color: white;
+    color: rgb(133, 154, 182);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .fruit-pic,
@@ -40,15 +41,34 @@ h1 {
 .misc-all {
     padding: 20px;
     border: black;
-    border: 10px solid;
-    width: 15%;
+    border: 20px solid;
+    background-color: white;
 }
 
 h2 {
     text-decoration: underline;
+    color: rgb(133, 154, 182);
+    background-color: black;
+    display: inline-block;
+    font-family: sans-serif;
 }
 
 .container {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    max-width: 40%;
+}
+
+body {
+    background-size: 100%;
+}
+
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul,
+ol {
+    font-family: cursive;
 }
